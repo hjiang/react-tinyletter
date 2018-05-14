@@ -14,6 +14,7 @@ function Email(props) {
   return (
     <input 
       type="email"
+      name="email"
       placeholder={props.placeholder ? props.placeholder : 'email@site.com'}
       required
       { ...props }
